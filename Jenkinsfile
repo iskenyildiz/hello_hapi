@@ -23,10 +23,5 @@ pipeline {
             }
         }
     }
-    stage('Start') {
-        steps {
-            echo 'Starting...'
-            sh 'npm start'
-}
     }
 }
